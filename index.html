@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/main.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="categories">
+                <div class="item">
+                    <a id="i0" class="active" href="#" onclick="Change(0)">New</a>
+                    <small id="i0" class="active">(4)</small>
+                </div>
+                <div class="item">
+                    <a id="i1" class="" href="#" onclick="Change(1)">Applications</a>
+                    <small id="i1">(3)</small>
+                </div>
+                <div class="item">
+                    <a id="i2" class="" href="#" onclick="Change(2)">Products</a>
+                    <small id="i2">(1)</small>
+                </div>
+                <div class="item">
+                    <a id="i3" class="" href="#" onclick="Change(3)">Technology</a>
+                    <small id="i3">(3)</small>
+                </div>
+            </div>
+            <div class="all">
+                <div class="item">
+                    <a id="i4" class="" href="#" onclick="Change(4)">All</a>
+                    <small id="i4">(11)</small>
+                </div>
+            </div>
+        </nav>
+        <hr><br><br>
+
+        <main>
+            <div class="info">
+                <div class="info-text">
+                    <div class="breadcrumbs">
+                        <p id="breadcrumbs">Innovations</p>
+                    </div>
+                    <div class="title">
+                        <h2 id="title">Welder</h2>
+                    </div>
+                    <div class="description">
+                        <h4 id="description">Industrial high energy X-ray and E-beam applications and inspections up to 600kV.</h4>
+                    </div>
+                </div>
+                <div class="info-controls">
+                    <hr>
+                    <div class="buttons">
+                        <button onclick="ChangePrev()">
+                            <img src="assets/img/left-arrow.png" alt="">
+                        </button>
+                        <button onclick="ChangeNext()">
+                            <img src="assets/img/right-arrow.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="videos">
+                <!-- NEW -->
+                <div class="video" id="new" style="display: block;">
+                    <img src="assets/img/new/1.jpg">
+                </div>
+                <div class="video" id="new" style="display: block;">
+                    <img src="assets/img/new/2.avif">
+                </div>
+                <div class="video" id="new" style="display: block;">
+                    <img src="assets/img/new/3.webp">
+                </div>
+                <div class="video" id="new" style="display: block;">
+                    <img src="assets/img/new/4.jpg">
+                </div>
+
+                <!-- APPLICATIONS -->
+                <div class="video" id="applications" style="display: none;">
+                    <img src="assets/img/applications/1.jpg">
+                </div>
+                <div class="video" id="applications" style="display: none;">
+                    <img src="assets/img/applications/2.jpg">
+                </div>
+                <div class="video" id="applications" style="display: none;">
+                    <img src="assets/img/applications/3.jpg">
+                </div>
+
+                <!-- PRODUCTS -->
+                <div class="video" id="products" style="display: none;">
+                    <img src="assets/img/products/1.jpg">
+                </div>
+
+                <!-- TECHNOLOGY -->
+                <div class="video" id="technology" style="display: none;">
+                    <img src="assets/img/technology/1.jpg">
+                </div>
+                <div class="video" id="technology" style="display: none;">
+                    <img src="assets/img/technology/2.jpg">
+                </div>
+                <div class="video" id="technology" style="display: none;">
+                    <img src="assets/img/technology/3.jpg">
+                </div>
+
+            </div>
+        </main>
+    </body>
+</html>
